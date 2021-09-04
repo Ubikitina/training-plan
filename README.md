@@ -9,3 +9,10 @@ El programa ofrece el menú principal con cinco opciones a elegir mediante el te
 3. **Introducir fecha de inicio del plan**: La opción 3 sirve para que el usuario indique la fecha que desea iniciar el plan. El programa solicitará el día, mes y año para comenzar el plan.
 4. **Mostrar plan en el calendario**: Esta opción muestra a modo resumen los días del plan en el calendario como carrera (C) o descanso (D). Para mostrar C o D, se basa en el plan de entrenamiento introducido, identificando si procede ser un día de descanso o no. Otra característica de esta opción es que si la fecha de inicio se especifica después de los últimos 9 días de un mes, el plan abarcará dos meses, y en este caso específico, imprimirá dos meses.
 5. **Salir del programa**: La última opción abortará la ejecución del programa.
+
+# Descripción de los ficheros
+Los ficheros subidos se encuentran divididos en dos carpetas: _Cabeceras_ y _Fuentes_. La carpeta _Fuentes_ contiene las implementaciones de las cabeceras (archivadas en la carpeta _Cabeceras_).
+La descomposición modular del programa se divide en tres módulos diferentes:
+- **Practica_4**: Se trata del programa principal. Contiene la función main.
+- **PlanEntrenamiento**: Está compuesto por el fichero de cabecera `PlanEntrenamiento.h` y el fichero de implementación `PlanEntrenamiento.cpp`. Contiene los elementos para leer e imprimir el plan de entrenamiento (opciones 1 y 2 del programa) y la declaración de tipos de vectores necesarios para ello.
+- **FechayCalendario**: Está compuesto por el fichero de cabecera `FechayCalendario.h` y el fichero de implementación `FechayCalendario.cpp`. Contiene los elementos relacionados con una fecha. Permite leer e imprimir una fecha e imprimir el calendario correspondiente a la fecha, entre otros.
