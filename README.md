@@ -1,5 +1,6 @@
 # Objetivo de training-plan
 Este repositorio contiene un trabajo realizado en el curso universitario "Fundamentos de Programación". Es un programa que almacena un plan de entrenamiento de 10 días para corredores. 
+El programa está desarrollado en el lenguaje C+-. Se trata de un lenguaje propio desarrollado por la UNED con fines didácticos, que está constituido por un subconjunto de los lenguajes C y C++. 
 
 # Descripción
 El objetivo de la práctica es crear un programa capaz de almacenar un plan de entrenamiento de 10 días para corredores, para después poder listar en pantalla todas las actividades del plan y tras introducir una fecha de inicio, mostrar a modo resumen los días del plan en el calendario como carrera (C) o descanso (D).
