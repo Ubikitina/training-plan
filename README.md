@@ -1,5 +1,6 @@
 # Objetivo de training-plan
 Este repositorio contiene un trabajo realizado en el curso universitario "Fundamentos de Programación". Es un programa que almacena un plan de entrenamiento de 10 días para corredores. 
+
 El programa está desarrollado en el lenguaje C+-. Se trata de un lenguaje propio desarrollado por la UNED con fines didácticos, que está constituido por un subconjunto de los lenguajes C y C++. 
 
 # Descripción
@@ -13,6 +14,7 @@ El programa ofrece el menú principal con cinco opciones a elegir mediante el te
 
 # Descripción de los ficheros
 Los ficheros subidos se encuentran divididos en dos carpetas: _Cabeceras_ y _Fuentes_. La carpeta _Fuentes_ contiene las implementaciones de las cabeceras (archivadas en la carpeta _Cabeceras_).
+
 La descomposición modular del programa se divide en tres módulos diferentes:
 - **Practica_4**: Se trata del programa principal. Contiene la función main.
 - **PlanEntrenamiento**: Está compuesto por el fichero de cabecera `PlanEntrenamiento.h` y el fichero de implementación `PlanEntrenamiento.cpp`. Contiene los elementos para leer e imprimir el plan de entrenamiento (opciones 1 y 2 del programa) y la declaración de tipos de vectores necesarios para ello.
