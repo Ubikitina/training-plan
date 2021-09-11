@@ -19,3 +19,7 @@ La descomposición modular del programa se divide en tres módulos diferentes:
 - **Practica_4**: Se trata del programa principal. Contiene la función main.
 - **PlanEntrenamiento**: Está compuesto por el fichero de cabecera `PlanEntrenamiento.h` y el fichero de implementación `PlanEntrenamiento.cpp`. Contiene los elementos para leer e imprimir el plan de entrenamiento (opciones 1 y 2 del programa) y la declaración de tipos de vectores necesarios para ello.
 - **FechayCalendario**: Está compuesto por el fichero de cabecera `FechayCalendario.h` y el fichero de implementación `FechayCalendario.cpp`. Contiene los elementos relacionados con una fecha. Permite leer e imprimir una fecha e imprimir el calendario correspondiente a la fecha, entre otros.
+
+# Bibliografía
+- Cerrada Somolinos, J., & Collado Machuca, M. (2015). _Fundamentos de programación_. Madrid: Editorial Universitaria Ramón Areces.
+- Abad Cardiel, I., Cerrada Somolinos, J., Collado Machuca, M., & Heradio Gil, R. (2011). _Prácticas de programación en C±._ Madrid: Editorial Universitaria Ramón Areces.
